@@ -8,7 +8,9 @@ import java.util.Queue;
 import com.springboot.model.Customer;
 
 public interface CustomerService {
+	/*Find customers in Queue*/
 	PriorityQueue<Customer> findAllCustomers();
+	
 	void saveCustomer(Customer customer);
 	Map<Integer, Customer> findAllCounterStatus();
 }
