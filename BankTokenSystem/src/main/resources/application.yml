@@ -1,0 +1,5 @@
+server:
+  port: 4545
+  contextPath: /BankTokenSystem
+counters:
+  number: 5
